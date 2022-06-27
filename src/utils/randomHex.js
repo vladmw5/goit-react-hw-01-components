@@ -1,3 +1,4 @@
+//Generates and returns a random color in the hex format
 export default function getRandomHexColor() {
   return `#${Math.floor(Math.random() * 16777215)
     .toString(16)

@@ -3,5 +3,10 @@
   padding-left: 400px;
   padding-right: 400px;
   padding-top: 160px;
+  padding-bottom: 160px;
   background-color: #eee;
+}
+
+.item:not(:last-child) {
+  margin-bottom: 60px;
 }
